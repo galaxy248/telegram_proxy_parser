@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>630</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Vazirmatn</family>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Telegram Proxy Parser</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(221, 239, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="1" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="text">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Please Type Your Telegram Proxy Link</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="link_input">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Vazirmatn&quot;;
+background-color: rgb(127, 127, 127);
+selection-background-color: rgb(161, 161, 161);
+border: 3px solid  rgb(85, 0, 0);</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="header">
+       <property name="font">
+        <font>
+         <family>Vazirmatn</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.3 rgba(255, 178, 102, 130), stop:1 rgba(250, 233, 0, 130));</string>
+       </property>
+       <property name="text">
+        <string>Telegram Proxy Parser</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QGridLayout" name="gridLayout_3" columnstretch="0,0,0">
+     <item row="2" column="0">
+      <widget class="QLabel" name="text_sc">
+       <property name="styleSheet">
+        <string notr="true">font: 22pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Secret</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="port_btn">
+       <property name="styleSheet">
+        <string notr="true">border-radius: 15px;
+background-color: rgb(0, 68, 255);
+color: rgb(255, 255, 127);
+font: 81 20pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Copy</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>image/copy.png</normaloff>image/copy.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="text_sr">
+       <property name="styleSheet">
+        <string notr="true">font: 22pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Server</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="server_btn">
+       <property name="styleSheet">
+        <string notr="true">border-radius: 15px;
+background-color: rgb(0, 68, 255);
+color: rgb(255, 255, 127);
+font: 81 20pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Copy</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>image/copy.png</normaloff>image/copy.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="secret_btn">
+       <property name="styleSheet">
+        <string notr="true">border-radius: 15px;
+background-color: rgb(0, 68, 255);
+color: rgb(255, 255, 127);
+font: 81 20pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Copy</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>image/copy.png</normaloff>image/copy.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="text_p">
+       <property name="styleSheet">
+        <string notr="true">font: 22pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Port</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="clear_btn">
+       <property name="styleSheet">
+        <string notr="true">border-radius: 15px;
+background-color: rgb(0, 68, 255);
+color: rgb(255, 255, 127);
+font: 81 16pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>image/clear.png</normaloff>image/clear.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="confrim_btn">
+       <property name="styleSheet">
+        <string notr="true">border-radius: 15px;
+background-color: rgb(0, 68, 255);
+color: rgb(255, 255, 127);
+font: 81 16pt &quot;Vazirmatn&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Confrim</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>image/confrim.png</normaloff>image/confrim.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
