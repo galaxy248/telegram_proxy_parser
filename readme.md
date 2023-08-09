@@ -7,11 +7,7 @@
 <h2>Project Screenshots:</h2>
 
 <center>
-<img src="https://i.imgur.com/54ebPd6.png" alt="project-screenshot" width="450" height="400/">
-</center>
-</br>
-<center>
-<img src="https://i.imgur.com/8MGZdyw.png" alt="project-screenshot" width="450" height="400/">
+<img src="https://i.imgur.com/AtwLp7H.png" alt="project-screenshot">
 </center>
 
 <h2>🛠️ Installation Steps:</h2>
